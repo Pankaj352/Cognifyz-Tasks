@@ -1,0 +1,30 @@
+[
+  {
+    "name": "sam",
+    "email": "sam123@gmail.com",
+    "mob": "874848284774",
+    "dob": "2001-05-01",
+    "password": "sam123"
+  },
+  {
+    "name": "sam",
+    "email": "sam@gmail.com",
+    "mob": "70323788324",
+    "dob": "2002-05-01",
+    "password": "bdvhbash"
+  },
+  {
+    "name": "sam",
+    "email": "sam@gmail.com",
+    "mob": "6765453427",
+    "dob": "2001-06-19",
+    "password": "sam123"
+  },
+  {
+    "name": "sunny",
+    "email": "sam@gmail.com",
+    "mob": "4535342367",
+    "dob": "2001-02-06",
+    "password": "shhbbhg"
+  }
+]

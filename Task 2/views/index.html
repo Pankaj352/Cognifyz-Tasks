@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Validation Form</title>
+</head>
+
+<body style="background-color: rgb(171, 234, 211)">
+    <div style="text-align: center;
+    margin: 20px;
+    padding: 20px;">
+        <h1>Form - Validation</h1>
+    </div>
+    <form action="/submit" method="post" onsubmit="return onSubmitForm()" style="margin:0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(243, 245, 192);
+    opacity: 1;  
+    :hover{border: 1px solid black}
+    :hover{background-color:rgb(232, 236, 148) 
+    ;} ">
+
+        <div style="margin: 10px;
+        padding: 5px;">
+            <label for="name" style="font-size: 20px;
+            font-weight: 500;">Name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name..." style="font-size: 16px;
+            font-weight: 300;
+            padding: 5px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            width: 100%;
+            margin: 5px 0;">
+        </div>
+        <div style="margin: 10px;
+        padding: 5px;">
+            <label for="email" style="font-size: 20px;
+            font-weight: 500;">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email..." style="font-size: 16px;
+            font-weight: 300;
+            padding: 5px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            width: 100%;
+            margin: 5px 0;">
+        </div>
+        <div style="margin: 10px;
+        padding: 5px;">
+            <label for="mob" style="font-size: 20px;
+            font-weight: 500;">Mob. No. :</label>
+            <input type="tel" name="mob" id="mob" placeholder="Enter your mobile number..." style="font-size: 16px;
+            font-weight: 300;
+            padding: 5px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            width: 100%;
+            margin: 5px 0;">
+        </div>
+        <div style="margin: 10px;
+        padding: 5px;">
+            <label for="dob" style="font-size: 20px;
+            font-weight: 500;">DOB :</label>
+            <input type="date" name="dob" id="dob" placeholder="Enter your dob..." style="font-size: 16px;
+            font-weight: 300;
+            padding: 5px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            width: 100%;
+            margin: 5px 0;">
+        </div>
+        <div style="margin: 10px;
+        padding: 5px;">
+            <label for="password" style="font-size: 20px;
+            font-weight: 500;">Password :</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password..." style="font-size: 16px;
+            font-weight: 300;
+            padding: 5px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            width: 100%;
+            margin: 5px 0;">
+        </div>
+        <input style="width: 100%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 18px;
+        border:none;
+        border-radius: 5px;
+        background-color: rgb(226, 177, 103); :hover{ background-color: rgb(211, 154, 84);}" type="submit"
+            value="submit">
+    </form>
+
+    <script >
+        function onSubmitForm(){
+    let name= document.getElementById('name').value;
+    let email= document.getElementById('email').value;
+    let mob= document.getElementById('mob').value;
+    let dob= document.getElementById('dob').value;
+    let password= document.getElementById('password').value;
+
+    if(name.trim()==='' || email.trim() ==='' || mob.trim()==='' || dob.trim()==='' || password.trim()===''){
+        window.alert("All fields are required to fill!!!");
+        return false;
+    }
+    return true;
+}
+    </script>
+</body>
+
+</html>

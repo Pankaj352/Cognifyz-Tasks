@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+}
+h1{
+    text-align: center;
+
+}
+.form-box{
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background: #cbcbcb;
+    box-shadow:  2px 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.container> label{
+    font-size: 20px;
+}
+
+input[type=password]{
+    font-size: 20px;
+    font-weight: 600;
+    overflow: hidden;
+    width: 100%;
+}
+.passHelp{
+    font-size: 11px;
+    padding:10px 0;
+}
+
+button{
+    padding: 10px;
+    width: 100%;
+}
