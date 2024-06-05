@@ -1,0 +1,18 @@
+{
+  "name": "level-1-beginner",
+  "version": "1.0.0",
+  "description": "Form Submission",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  },
+  "keywords": []
+}
